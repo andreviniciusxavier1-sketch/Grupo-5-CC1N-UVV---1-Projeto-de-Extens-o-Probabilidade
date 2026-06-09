@@ -6,9 +6,15 @@ A documentação, bem como as formas de uso do projeto podem ser encontradas na 
 
 
 **CRÉDITOS**
+
 O projeto foi possível graças a participação dos alunos de ciências da computação da UVV: 
+
 André Vinícius de Azevedo Xavier - Linkedin:
+
 Heitor Bernabe Moreira Morosini - Linkedin:
+
 Leandro da Hora de Sousa - Linkedin:
+
 Rickelme - Linkedin:
+
 Lucas - Linkedin: 
