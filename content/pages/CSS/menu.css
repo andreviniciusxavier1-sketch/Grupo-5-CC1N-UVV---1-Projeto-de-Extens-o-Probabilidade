@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+:root {
+    --darkestcolor: #210535;
+    --darkpurple: #420D4A;
+    --purple: #7B347E;
+    --lightpurple: #C774B2;
+    --lightestpurple: #F4D5E0;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 3em;
+    background: linear-gradient(to left, var(--darkpurple), var(--lightpurple));
+    background-clip: text;
+    color: transparent;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 2em;
+    min-width:  50vw;
+    min-height: 50vh;
+    backdrop-filter: blur(7.4px);
+    background: rgba(255, 255, 255, 0.29);
+    border-radius: 16px;
+    -webkit-backdrop-filter: blur(7.4px);
+    border: 1px solid rgba(182, 229, 226, 0.48);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../../img/gifespaçobg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu button {
+    width: 30vw;
+    height: 7vh;
+    border: 4px solid transparent;
+    background-color:  var(--purple);
+    color: var(--darkestcolor);
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    border-radius: 30px;
+    transition: 0.2s;
+}
+
+.menu button:hover {
+    border: 4px solid var(--lightestpurple);
+    background-color: transparent;
+    color: var(--lightestpurple);
+}
+
+.menu button:active { 
+    border: 4px solid var(--lightpurple);
+    background-color: transparent;
+    color: var(--lightpurple);
+}

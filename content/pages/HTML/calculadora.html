@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../img/favicon/icon_foguete.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/calculadora.css">
+    <title>Calculadora e Ranking</title>
+</head>
+<body onload="table()">
+        <button onclick="voltar()">VOLTAR</button>
+    <div class="formcalculadora">
+        <form>
+            <label for="nome">Nome do Aluno: </label>
+            <input id="nome" type="text" placeholder="Insira o nome aqui">
+            <label for="pontoeasy">Pontuação do nivel Fácil: </label>
+            <input id="pontoeasy" type="number" class="pontoeasy">
+            <label for="pontomedio">Pontuação do nivel Médio: </label>
+            <input id="pontomedio" type="number" class="pontomedio">
+            <label for="pontohard">Pontuação do nivel Difícil: </label>
+            <input id="pontohard" type="number" class="pontohard">            
+            
+            <button type="button" onclick="calcular()">calcular</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </div>
+
+    <div class="Rankingtable">
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2">Nome</th>
+                    <th colspan="4">Pontuação</th>
+                </tr>
+                <tr>
+                    <th>Nivel Fácil</th>
+                    <th>Nível Médio</th>
+                    <th>Nível Difícil</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody class="tabela-dados">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="../JS/main.js"></script>
+</body>
+</html>
